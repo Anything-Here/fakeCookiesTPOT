@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Файлы cookies</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <audio controls loop hidden=true id="audioLoud">
+    <source src="sound.mp3" type="audio/mpeg">
+    Ваш браузер не поддерживает тег audio.
+    </audio>
+</head>
+<body>
+    <div id="CaptchaDIV">
+    <img src="img.png" height="900px" width="900px" hidden=true id="imgHamster">
+    <p id="notificationP">Данный веб-сайт использует файлы cookie. <br> Для продолжения работы с сайтом <br> необходимо дать согласие на их использование.</p>
+    <button type="button" id="acceptCookies" onclick="loudHamster()">Принять</button>
+    <button type="button" id="declineCookies" onclick="loudHamster()">Отклонить</button>
+    <p id="anotherp1">Вы можете изменить свой выбор позже на сайте <br>Мой канал @RequireModel</p>
+     </div>
+</body>
+</html>

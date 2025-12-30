@@ -1,0 +1,34 @@
+#CaptchaDIV{
+text-align: center;
+}
+
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#acceptCookies{
+    background-color: rgb(2, 222, 17);
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+}
+
+#declineCookies{
+    background-color: rgb(222, 22, 22);
+    color: white;
+    border-color: transparent;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 100px;
+    height: 35px;
+    cursor: pointer;
+}
+
+#anotherp1{
+    color: rgb(161, 161, 161);
+    font-size: 15px;
+}
